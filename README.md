@@ -1,7 +1,5 @@
 # Joystick Web Server - Raspberry Pi Pico W
 
-![Exemplo da Interface Web]([https://lh4.googleusercontent.com/-CVs_02oIm3g/TYwFeJFzB-I/AAAAAAAAAcQ/shj5fbaKagA/s1600/ROSA+DOS+VENTOS.jpg](https://drive.google.com/file/d/1CTPZbaDW87giO-iw4OvSNdMwouEncB_b/view?usp=sharing))
-
 ## 📝 Descrição
 Projeto desenvolvido para monitorar um joystick analógico via servidor web embarcado no Raspberry Pi Pico W. Exibe:
 - Posição dos eixos X/Y (-1.0 a +1.0)
