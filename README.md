@@ -1,6 +1,6 @@
 # Joystick Web Server - Raspberry Pi Pico W
 
-![Exemplo da Interface Web](https://lh4.googleusercontent.com/-CVs_02oIm3g/TYwFeJFzB-I/AAAAAAAAAcQ/shj5fbaKagA/s1600/ROSA+DOS+VENTOS.jpg)
+![Exemplo da Interface Web]([https://lh4.googleusercontent.com/-CVs_02oIm3g/TYwFeJFzB-I/AAAAAAAAAcQ/shj5fbaKagA/s1600/ROSA+DOS+VENTOS.jpg](https://drive.google.com/file/d/1CTPZbaDW87giO-iw4OvSNdMwouEncB_b/view?usp=sharing))
 
 ## 📝 Descrição
 Projeto desenvolvido para monitorar um joystick analógico via servidor web embarcado no Raspberry Pi Pico W. Exibe:
@@ -51,46 +51,8 @@ Projeto desenvolvido para monitorar um joystick analógico via servidor web emba
 3. **Atualização Manual**
    - Recarregue a página (F5) para ver mudanças
 
-## ⚡ Como Usar
-1. **Conectar o Hardware**:
-   - Joystick X → GPIO 26 (ADC0)
-   - Joystick Y → GPIO 27 (ADC1)
-   - Botão → GPIO 22 (pull-up interno)
-
-2. **Compilar e Carregar**:
-```bash
-mkdir build && cd build
-cmake ..
-make
-picotool load -f *.uf2
-```
-
-3. **Acessar a Interface**:
-```bash
-# No terminal serial:
-Servidor acessível em: http://[IP-DO-PICO]
-```
-
-## 📂 Estrutura do Projeto
-```
-/
-├── CMakeLists.txt
-├── main.c               # Código principal
-├── README.md
-└── assets/
-    ├── diagrama.png     # Diagrama de conexões
-    └── screenshot.png   # Captura da interface
-```
-
-## 🚀 Melhorias Futuras
-- [ ] Implementar atualização automática via AJAX
-- [ ] Adicionar suporte a MQTT para nuvem
-- [ ] Criar versão offline da rosa dos ventos
-
 ## 📌 Links
-- [Vídeo Demo](https://drive.google.com/file/d/1BSFhj5zNNfcFWjSHbF-ScKewfieo6mbA/view)
-- [Datasheet Pico W](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf)
+- [Vídeo Demostração](https://drive.google.com/file/d/1BSFhj5zNNfcFWjSHbF-ScKewfieo6mbA/view)
 
----
 
-Desenvolvido por [Seu Nome] como parte do EmbarcaTech.
+Desenvolvido por Cleber Henrique Lacerda Duarte como parte do EmbarcaTech.
